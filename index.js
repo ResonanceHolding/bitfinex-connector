@@ -1,6 +1,9 @@
 'use strict';
 
-const { BitfinexClient, BitfinexMultiClient } = require('./lib/Bitfinex.js');
+const {
+  BitfinexClient,
+  BitfinexMultiClient,
+} = require('./lib/exchange/Bitfinex.js');
 
 module.exports = {
   BitfinexClient,
