@@ -1,0 +1,17 @@
+# Dependency directories
+node_modules/
+
+.env
+.env*
+
+test.js
+run.sh
+
+*.0x/
+
+.idea/*
+.idea/
+.vscode
+
+# MacOS
+.DS_Store

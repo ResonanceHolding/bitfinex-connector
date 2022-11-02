@@ -1,0 +1,22 @@
+{
+  "name": "resonance-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fmt:check": "prettier -c .",
+    "fmt": "prettier --write ."
+  },
+  "author": {
+    "name": "Resonance Holding Inc",
+    "email": "support@resonanceholding.com",
+    "url": "https://resonanceholding.com"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-unicorn": "^43.0.2",
+    "prettier": "^2.7.1"
+  }
+}
